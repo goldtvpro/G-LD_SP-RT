@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-image: url('https://images.pexels.com/photos/2706654/pexels-photo-2706654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+/* End general css  */
+
+/* NavBar start */
+
+.nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .nav {
+      display: flex;
+      justify-content: center;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 1px;
+      margin-bottom: 10px
+  }
+}
+
+.nav-fill {
+  flex-shrink: 1;
+  width: 800px;
+  height: 45px;
+}
+
+/* Nav End here , Navbar is same  */
+
+/* Real  live match css start here */
+
+/* -------------------------------- START FROM HERE  */
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-grow: 1;
+  /* Expand to fill remaining space */
+  background-color: #f1089800;
+}
+
+.server1 {
+  width: calc(10% - 20px);
+  height: 100px;
+  margin: 5px;
+  border: 2px solid #ff00aa;
+  padding: 1px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  background-image: url(https://dailypost.ng/wp-content/uploads/2020/05/premier-league.jpg);
+}
+
+.server2 {
+  width: calc(10% - 20px);
+  height: 100px;
+  margin: 5px;
+  border: 2px solid #ff00aa;
+  padding: 1px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  background-image: url(https://logowik.com/content/uploads/images/laliga-2023-2024-new3252.logowik.com.webp);
+}
+
+.server3 {
+  width: calc(10% - 20px);
+  height: 100px;
+  margin: 5px;
+  border: 2px solid #ff00aa;
+  padding: 1px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  background-image: url(https://media.inter.it/binaries/content/gallery/internazionale/photos/2022/06/24/slider_news_873x529.jpg/slider_news_873x529.jpg/internazionale%3Acorpo);
+}
+.server4 {
+  width: calc(10% - 20px);
+  height: 100px;
+  margin: 5px;
+  border: 2px solid #ff00aa;
+  padding: 1px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  background-image: url(https://www.scisports.com/wp-content/uploads/2021/09/NeedForSpeed-SciSports-Edition-header-Ligue1-1280x720.jpg);
+}
+.server5 {
+  width: calc(10% - 20px);
+  height: 100px;
+  margin: 5px;
+  border: 2px solid #ff00aa;
+  padding: 1px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  background-image: url(https://assets.mspimages.in/gear/wp-content/uploads/2022/11/Sports-18.jpg);
+}
+
+.server0 {
+  width: calc(10% - 20px);
+  height: 100px;
+  margin: 5px;
+  border: 2px solid #ff00aa;
+  padding: 1px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  background-image: url(https://media.licdn.com/dms/image/D560BAQHElejP-dKJhg/company-logo_200_200/0/1667384842286/green_tv_digital_logo?e=1710979200&v=beta&t=nONv0kvIrNIfi4BuJ8aGcrEBLmxXG_yySVR2WCKan6U);
+}
+.server11 {
+  width: calc(10% - 20px);
+  height: 100px;
+  margin: 5px;
+  border: 2px solid #ff00aa;
+  padding: 1px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  background-image: url(https://medianet.mv/media/channel/178x0-icon.png);
+}
+
+.server12 {
+  width: calc(10% - 20px);
+  height: 100px;
+  margin: 5px;
+  border: 2px solid #ff00aa;
+  padding: 1px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  background-image: url(https://www.mykhel.com/img/1200x60x675/2023/12/club-world-cup-2023-1702551238.jpg);
+}
+
+
+.server6 {
+  width: calc(10% - 20px);
+  height: 100px;
+  margin: 5px;
+  border: 2px solid #ff00aa;
+  padding: 1px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  background-image: url(https://image.discovery.indazn.com/ca/v2/ca/image?id=5fb4baf2-1a67-488d-b8a5-e5f7811e112e&quality=70);
+}
+
+
+
+@media (max-width:700px) {
+  .server1 {
+      width: calc(18% - 10px);
+      height: 50px;
+  }
+}
+
+@media (max-width:700px) {
+  .server0 {
+      width: calc(18% - 10px);
+      height: 50px;
+  }
+}
+
+
+
+
+
+@media (max-width:700px) {
+  .server3 {
+      width: calc(18% - 10px);
+      height: 50px;
+  }
+}
+@media (max-width:700px) {
+  .server2 {
+      width: calc(18% - 10px);
+      height: 50px;
+  }
+}
+
+@media (max-width:700px) {
+  .server5 {
+      width: calc(18% - 10px);
+      height: 50px;
+  }
+}
+
+
+@media (max-width:700px) {
+  .server4 {
+      width: calc(18% - 10px);
+      height: 50px;
+  }
+}
+
+@media (max-width:700px) {
+  .server11 {
+      width: calc(18% - 10px);
+      height: 50px;
+  }
+}
+
+@media (max-width:700px) {
+  .server12 {
+      width: calc(18% - 10px);
+      height: 50px;
+  }
+}
+@media (max-width:700px) {
+  .server6 {
+      width: calc(18% - 10px);
+      height: 50px;
+  }
+}
+/* ADS code start */
+
+@media (max-width:700px) {
+  #forpc {
+      display: none;
+  }
+}
+
+@media (min-width:700px) {
+  #formobile {
+      display: none;
+  }
+}
+      .player__wrapper {
+          margin: 20px auto;
+          max-width: 600px;
+      }
+
+
+      .animate-charcter
+      {
+          text-transform: uppercase;
+          background-image: linear-gradient(
+                  200deg,
+                  #04879c 0%,
+                  #44107a 29%,
+                  #ff1361 67%,
+                  #fffb00 100%
+          );
+
+
+
+
+      }
