@@ -39,7 +39,7 @@ function castChannel(channelNumber) {
         6: "https://edge4-moblive.yuppcdn.net/trans1sd/smil:tensports2.smil/playlist.m3u8",
         7: "https://hls.streambtw.com/live/stream_7.m3u8",
         8: "https://hls.streambtw.com/live/stream_8.m3u8",
-        9: "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sports18_1_HD_voot_MOB/Fallback/index.m3u8",
+        9: "https://hls083.vipdracdn.net/streamhls2024/79924c57a3d7d68cd4527999d667a5f4/ep.1.v0.1707617825.m3u8",
 
 
         // Add more channels as needed
