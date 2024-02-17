@@ -130,7 +130,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
-  background-image: url(https://media.licdn.com/dms/image/D560BAQHElejP-dKJhg/company-logo_200_200/0/1667384842286/green_tv_digital_logo?e=1710979200&v=beta&t=nONv0kvIrNIfi4BuJ8aGcrEBLmxXG_yySVR2WCKan6U);
+  background-image: url(https://rentapi.blackboxsys.net/images/png/epl-bein1.png);
 }
 .server11 {
   width: calc(10% - 20px);
@@ -142,7 +142,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
-  background-image: url(https://medianet.mv/media/channel/178x0-icon.png);
+  background-image: url(https://rentapi.blackboxsys.net/images/png/epl-bein2.png);
 }
 
 .server12 {
