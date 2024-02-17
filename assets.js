@@ -30,7 +30,7 @@ function castChannel(channelNumber) {
 
     // Define video sources for each channel.                  
     const videoSources = {
-        0: "https://livess.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/chunks.m3u8",
+        0: "https://ctrl.laotv.la/live/Bsport1/index.m3u8",
         1: "https://edge4-moblive.yuppcdn.net/trans1sd/smil:tensports1.smil/playlist.m3u8",
         2: "https://i.mjh.nz/SamsungTVPlus/USBD12000255B.m3u8",
         3: "https://ctrl.laotv.la/live/TSport1/index.m3u8",
